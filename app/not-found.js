@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound(){return <section className="container-fit flex min-h-[70vh] flex-col items-center justify-center text-center"><p className="text-xs font-extrabold tracking-[.3em] text-[#ccff00]">404 / NOT FOUND</p><h1 className="mt-4 font-display text-7xl font-bold uppercase">WRONG TURN.</h1><p className="mt-4 max-w-md text-sm text-[#888]">That route does not exist in the FitLog library.</p><Link href="/" className="mt-7 rounded-xl bg-[#ccff00] px-5 py-3 text-sm font-extrabold text-black">Back to workouts</Link></section>}
