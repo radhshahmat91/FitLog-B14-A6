@@ -20,27 +20,3 @@ A dark, responsive workout library and daily planning app built from the FitLog 
 7. Persistent localStorage state.
 8. Custom 404 and loading states.
 
-## API
-`https://api.abcz.workers.dev/api/fitlog`
-
-## Run locally
-```bash
-npm install
-npm run dev
-```
-
-## Deployment
-The app is ready for Vercel/Netlify/Cloudflare-style Next.js deployment.
-
-## Git submission — important
-This ZIP intentionally **does not include the `.git` folder**. That prevents old Git history/author metadata from coming with the project and helps you avoid the "2 contributors" issue when starting your GitHub repository.
-
-After creating your GitHub repository, initialize Git in this project and make at least 8 meaningful commits using the same GitHub account/email. Example commit messages:
-1. `setup nextjs and tailwind`
-2. `added fitlog api integration`
-3. `built responsive navbar and footer`
-4. `added workout library cards`
-5. `added workout detail page`
-6. `added plan and saved state`
-7. `added sorting and done actions`
-8. `added responsive polish and readme`
